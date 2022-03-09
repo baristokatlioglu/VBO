@@ -2,12 +2,34 @@ name: nba
 channels:
   - defaults
 dependencies:
+  - _py-xgboost-mutex=2.0=cpu_0
+  - blas=1.0=mkl
+  - bottleneck=1.3.2=py39h7cc1a96_1
   - ca-certificates=2022.2.1=haa95532_0
+  - catboost=0.26.1=py39haa95532_0
   - certifi=2021.10.8=py39haa95532_2
+  - icc_rt=2019.0.0=h0cc432a_1
+  - intel-openmp=2021.4.0=haa95532_3556
+  - joblib=1.1.0=pyhd3eb1b0_0
+  - libxgboost=1.5.0=hd77b12b_1
+  - lightgbm=3.2.1=py39hd77b12b_0
+  - mkl=2021.4.0=haa95532_640
+  - mkl-service=2.4.0=py39h2bbff1b_0
+  - mkl_fft=1.3.1=py39h277e83a_0
+  - mkl_random=1.2.2=py39hf11a4ad_0
+  - numexpr=2.8.1=py39hb80d3ca_0
+  - numpy=1.21.5=py39ha4e8547_0
+  - numpy-base=1.21.5=py39hc2deb75_0
+  - openjdk=11.0.13=h2bbff1b_0
   - openssl=1.1.1m=h2bbff1b_0
+  - packaging=21.3=pyhd3eb1b0_0
   - pip=21.2.4=py39haa95532_0
+  - py-xgboost=1.5.0=py39haa95532_1
   - python=3.9.0=h6244533_2
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - scikit-learn=1.0.1=py39hf11a4ad_0
   - setuptools=58.0.4=py39haa95532_0
+  - six=1.16.0=pyhd3eb1b0_1
   - sqlite=3.37.2=h2bbff1b_0
   - tzdata=2021e=hda174b7_0
   - vc=14.2=h21ff451_1
@@ -35,21 +57,20 @@ dependencies:
     - flask==2.0.3
     - flask-compress==1.11
     - fonttools==4.29.1
+    - future==0.18.2
     - gunicorn==20.1.0
     - h11==0.13.0
+    - h2o==3.36.0.3
     - html5lib==1.1
     - idna==3.3
     - itsdangerous==2.1.0
     - jinja2==3.0.3
-    - joblib==1.1.0
     - kiwisolver==1.3.2
     - lxml==4.8.0
     - markupsafe==2.1.0
     - matplotlib==3.5.1
     - nba-api==1.1.11
-    - numpy==1.21.5
     - outcome==1.1.0
-    - packaging==21.3
     - pandas==1.3.5
     - pillow==9.0.1
     - pipreqs==0.4.11
@@ -60,14 +81,13 @@ dependencies:
     - pysocks==1.7.1
     - pytz==2021.3
     - requests==2.27.1
-    - scikit-learn==1.0.1
     - scipy==1.8.0
     - seaborn==0.11.2
     - selenium==4.1.2
-    - six==1.16.0
     - sniffio==1.2.0
     - sortedcontainers==2.4.0
     - soupsieve==2.3.1
+    - tabulate==0.8.9
     - tenacity==8.0.1
     - threadpoolctl==3.1.0
     - tqdm==4.62.3
@@ -78,5 +98,6 @@ dependencies:
     - webencodings==0.5.1
     - werkzeug==2.0.3
     - wsproto==1.1.0
+    - xgboost==1.5.2
     - yarg==0.1.9
-prefix: C:\Miniconda\envs\nba
+prefix: D:\Users\Basse\anaconda3\envs\nba
